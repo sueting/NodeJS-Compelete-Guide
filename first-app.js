@@ -1,3 +1,5 @@
+// this file is for practicing any javascript function.
+
 const name ='YEH';
 let age =27;
 const hasHobbies = true;
@@ -23,5 +25,13 @@ const add = (a,b) =>{
 //you can short it for like this
 const add = (a,b) => a + b;
 
-console.log(add(1,2));
-console.log(summarizeUser(name,age,hasHobbies));
+//console.log(add(1,2));
+//console.log(summarizeUser(name,age,hasHobbies));
+
+
+const hobbies = ['Sports','Cooking'];
+
+//copy the arraty hobbies
+const copiedArray = hobbies.slice();
+
+console.log(copiedArray);
